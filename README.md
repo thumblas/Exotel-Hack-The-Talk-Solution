@@ -54,8 +54,3 @@ Note:
 
 If you wish to change the training dataset just uncomment the line 'train_classifier()' in main in execute.py. This will create new classifier and save it in classifier.pickle.
 
-For any queries ,
-please connect us through:
-
-nileshgavhane101@gmail.com
-pratham451@gmail.com
