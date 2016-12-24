@@ -1,5 +1,5 @@
 
-Project:
+# Project:
 Acoustic Sentimental Analysis:
 Our project uses an open library pyAudioAnalysis for feature Extraction.
 The features extracted are:
@@ -24,18 +24,18 @@ The Classifier used for prediction is Random Forest Classifier with
 No of estimators: 30
 No of Features: 6
 
-Requirements:
+## Requirements:
 
 Operating system Ubuntu-14.04 and above
 Python 2.7 and above
 
-Code Structure:
+## Code Structure:
 1. execute.py: python program for training and predicting the sentiment of files from input.txt
 2. setup.py: python program that installs required packages and libraries to run the project.
 3. run.sh: executes setup.py and execute.py
 4. dataset.pickle , classifier.pickle: pickle file with trained dataset and classifier set.
 
-Steps to execute project:
+## Steps to execute project:
 1. Extract our zip file.
 2. In order to be able to call the pyAudioAnalysis library from any path you need to add the folder that contains it in the ~/.bashrc file. In particular, add a line as the follow in ~/.bashrc:
 
@@ -50,7 +50,7 @@ Then, you need to update the path details:
 3. Add the files to be predicted in given folder and their name in input.txt. 
 4. Execute " bash run.sh " 
 
-Note: 
+## Note: 
 
 If you wish to change the training dataset just uncomment the line 'train_classifier()' in main in execute.py. This will create new classifier and save it in classifier.pickle.
 
