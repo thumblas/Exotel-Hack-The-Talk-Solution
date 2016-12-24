@@ -1,3 +1,7 @@
+This repository provides solution of the team, noobs451 for the Competition, Hack-the-Talk.
+This team placed eight in the competition.
+https://www.hackerearth.com/sprints/hack-the-talk/
+
 
 # Project:
 Acoustic Sentimental Analysis:
